@@ -12,20 +12,20 @@ const AdminPage = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
-  // 1
+
 
   useEffect(() => {
-    //2
+    
     const timer = setTimeout(() => {
       setIsVisible(true);
     }, 1000);
     return () => {
-   //3
+   
       clearTimeout(timer);
     }
       
   }, []);
-//4
+
   useEffect(() => {
     dispatch(fetchmanage());
   }, [dispatch]);
