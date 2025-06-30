@@ -7,11 +7,10 @@
   "scripts": {
  
     "start": "react-scripts start",
-    "build": "react-scripts build", 
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-    "dev": "vite",
+    "eject": "react-scripts eject",
+  
+  
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
